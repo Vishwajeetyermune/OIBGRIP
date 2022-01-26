@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 5px double white;
+    padding: 5px;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: #a58a58;
+    margin-bottom: 2%;
+
+}
+
+body {
+    background-color: black;
+    /* background-color: aliceblue; */
+}
+
+/******** Middle Section *********************/
+div.one {
+    position: relative;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    margin: 0 3%;
+
+}
+
+.img-one {
+    width: 40%;
+}
+
+.img-two {
+    position: absolute;
+    margin-left: 40%;
+    width: 60%;
+    height: 400px;
+}
+
+
+/********************** Main section ********************************************/
+.main {
+    margin: 4%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+ul li {
+    padding: 5px;
+
+}
+
+/********* Footer Section*********************************************************/
+footer {
+    color: white;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.myname {
+    color: #551a8b;
+    font-weight: bold;
+    text-decoration: dotted;
+
+}
